@@ -18,7 +18,7 @@ body::before {
     content: "";
     position: fixed;
     inset: 0;
-    background-image: url('background-image1.jpg');
+    background-image: url('images/background-image1.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -27,8 +27,15 @@ body::before {
     z-index: -2;
 }
 
+main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
 #container {
-    background-color: #978662;
+    background-color: #967b40;
     padding: 1rem;
     border-radius: 20px;
     box-shadow: 6px 6px 10px 8px rgba(7, 5, 0, 0.527);
@@ -38,64 +45,82 @@ body::before {
 }
 
 header img {
-    max-width: 180px;
+    max-width: 170px;
     width: 100%;
     border-radius: 30%;
     display: block;
-    margin: 0.5rem auto 1rem;
-    border: 2px solid #fff;
+    margin: 0.2rem auto;
+    border: 1px solid #1b1a1a80;
 }
 
 header {
     text-align: center;
     color: white;
     line-height: 1;
+    font-weight: bold;
 }
+
 header h1 {
     font-size: 2rem;
-    margin: 1rem 0 0 0 ;
+    margin: 1rem 0 0 0;
     line-height: 0.8;
+    font-weight: bold;
 }
+
 h2 {
-    font-size: 1.2rem;
-    margin: 0.7rem 0;
-    color: #ccc;
+    font-size: 1.1rem;
+    margin: 0.3rem 0;
+    font-weight: bold;
 }
+
 header p {
-    font-size: 1rem;
-    margin: 1.5rem 0 1rem 0;
+    font-size: 1.2rem;
+    margin: 1.5rem 0 0.5rem 0;
     color: #ccc;
 }
 
-article {
+#links-box {
     display: flex;
     justify-content: center;
-    justify-items: center;
     align-items: center;
 }
 
-a:active, a:link, button {
+#links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#links li + li {
+    margin-top: 1rem;
+}
+
+.social-link {
     display: block;
-    width: 19rem;
-    justify-self: center;
-    align-items: center;
+    width: 18.5rem;
+    text-align: center;
     text-decoration: none;
     cursor: pointer;
-    font-size: 1.2rem;
-    margin: 0.7rem;
+    font-size: 1rem;
+    margin: 0 auto;
     border-radius: 5px;
-}
-
-button {
     background-color: #fff;
     color: #000;
     border: none;
-    padding: 0.5rem 1rem;
+    padding: 0.7rem;
     transition: all 0.3s ease;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    font-weight: bold;
+    
 }
 
-a:hover,button:hover {
-    background-color: #bba5a556;
+.social-link:visited {
+    color: #000;
+}
+
+.social-link:hover,
+.social-link:focus-visible {
+    background-color: #0f0f0f71;
     color: #fff;
+    outline: none;
 }
