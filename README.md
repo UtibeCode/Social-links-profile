@@ -8,14 +8,9 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
-- [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
   - [AI Collaboration](#ai-collaboration)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 This is a design of a social-link profile. It shows the profile picture and also gives the links to the individual's social page
@@ -29,14 +24,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](screenshot.jpeg)
+![](images/screenshot.jpeg)
 
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
-
-## My process
 
 ### Built with
 
@@ -47,7 +40,7 @@ Users should be able to:
 
 ### AI Collaboration
 
-During coding, I made use of my VS chat AI. It really helped as it could access my code and easily offer a helpful suggestion.
+During coding, I made use of VS chat AI. It really helped as it could access my code and easily make corrections.
 
 ## Author
 - Website - [Utibe](https://utibecode.github.io/Social-links-profile/)
