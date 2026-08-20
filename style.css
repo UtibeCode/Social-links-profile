@@ -136,3 +136,9 @@ a[class="social-link active"] {
     color: #fff;
     outline: none;
 }
+
+@media (max-width: 500px) {
+    a[class="social-link active"]{
+        background-color: white;
+    }
+}
